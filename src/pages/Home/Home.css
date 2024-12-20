@@ -1,0 +1,50 @@
+.cv-container {
+  background: url("./../../assets/images/background.png") no-repeat center
+    center;
+  background-size: cover;
+  min-height: 100vh;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cv-container a {
+  text-decoration: none;
+}
+.img-avatar {
+  margin-bottom: 10px;
+  border-radius: 100%;
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+  object-position: center 30%;
+}
+.cv-name {
+  margin-bottom: 10px;
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+}
+.cv-subtitle {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+.cv-text {
+  margin-bottom: 10px;
+  max-width: 500px;
+  color: white;
+}
+.cv-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.color-white {
+  color: white;
+}

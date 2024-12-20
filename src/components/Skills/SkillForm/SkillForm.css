@@ -1,0 +1,22 @@
+form {
+  padding: 20px 15px;
+  border: 1px solid #26c17e;
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
+.label-skill-form {
+  font-weight: 600;
+  margin-right: 20px;
+}
+.input-label-wrapper {
+  margin-bottom: 20px;
+}
+.input-field {
+  padding: 10px;
+  border: 1px solid #667081;
+  border-radius: 7px;
+}
+.skillform-error {
+  color: red;
+  font-size: 14px;
+}

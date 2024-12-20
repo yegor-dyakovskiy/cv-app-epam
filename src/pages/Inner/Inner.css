@@ -1,0 +1,38 @@
+.inner-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+  transition: padding 0.3s ease;
+}
+.panel-open {
+  padding-left: 280px; /* Adjust padding when panel is open */
+}
+.button-up {
+  position: fixed;
+  bottom: 0px;
+  right: 4%;
+  height: 30px;
+  width: 30px;
+  border-top-left-radius: 10px; /* Круглый верхний левый угол */
+  border-top-right-radius: 10px; /* Круглый верхний правый угол */
+  border-bottom-left-radius: 0; /* Прямой нижний левый угол */
+  border-bottom-right-radius: 0; /* Прямой нижний правый угол */
+  z-index: 8;
+}
+.button-up img {
+  z-index: 10;
+  position: relative;
+  top: 70%;
+  right: 50%;
+  min-width: 14px;
+  min-height: 14px;
+  transform: translate(-50%, -50%);
+}
+.inner-wrapper {
+  position: relative;
+}

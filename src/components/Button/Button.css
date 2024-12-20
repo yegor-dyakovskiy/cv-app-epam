@@ -1,0 +1,42 @@
+.button {
+  background-color: #222935;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.button:hover {
+  background-color: #26c17e;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button-skills p {
+  color: #fff;
+}
+.button-skills {
+  height: 40px;
+  width: 140px;
+}
+.add-skill-button {
+  width: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  height: 45px;
+  background-color: #26c17e;
+}
+.add-skill-button:disabled {
+  background-color: #667080;
+  cursor: not-allowed;
+}
+.add-skill-button:disabled > p {
+  color: #35383e;
+}

@@ -1,0 +1,147 @@
+/* Panel.css */
+.panel {
+  width: 250px;
+  height: 100vh;
+  background-color: #222935;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.panel.open {
+  transform: translateX(0);
+}
+.panel-nav {
+  margin-top: 40px;
+}
+.panel-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.panel-nav li:hover {
+  color: #26c17e;
+}
+.panel-nav li:hover svg path {
+  fill: #26c17e;
+}
+.panel-nav li {
+  cursor: pointer;
+  margin-bottom: 40px;
+  color: #667081;
+  display: flex;
+  gap: 20px;
+}
+.experience-title {
+  color: #667081;
+}
+
+.panel-nav li a {
+  display: flex;
+  color: #667081;
+  gap: 20px;
+  align-items: center;
+}
+.panel-nav li a:hover {
+  color: #26c17e;
+}
+
+.font-size16pxbold {
+  font-size: 16px;
+  font-weight: 700;
+}
+.panel button {
+  margin-top: auto;
+}
+.panel button p {
+  color: white;
+}
+.burger {
+  position: relative;
+  width: 14px;
+  height: 2px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 1px;
+}
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  border-radius: 1px;
+}
+.burger::before {
+  top: 6px;
+}
+.burger::after {
+  bottom: 6px;
+}
+.burger-bg {
+  position: absolute;
+  background: #222935;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 250px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  transform: translateX(0%);
+  transition: transform 0.7s ease;
+}
+.panel.open .burger-bg {
+  transform: translateX(0);
+}
+aside a {
+  align-self: center;
+  text-decoration: none;
+}
+.panel-nav ul li a.active {
+  color: #26c17e;
+}
+.active {
+  color: #26c17e;
+}
+.avatar-inner-page {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+}
+
+@media (max-width: 600px) {
+  .panel {
+    width: 54px;
+  }
+  .panel-open {
+    padding-left: 84px;
+  }
+  .burger-bg {
+    left: 50px;
+  }
+  .avatar-inner-page {
+    min-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+  }
+  .cv-name {
+    display: none;
+  }
+  .style-for-text {
+    display: none;
+  }
+  .panel button img {
+    min-width: 10px;
+  }
+}

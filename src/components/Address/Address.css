@@ -1,0 +1,22 @@
+.address-item {
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
+.address-item__right {
+  display: flex;
+  flex-direction: column;
+}
+.address-item__right-link {
+  color: #667081;
+  font-weight: 400;
+}

@@ -1,0 +1,51 @@
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+
+.skills-line {
+  background: #26c17e;
+  height: 30px;
+  padding-left: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.line-0 {
+  width: 100%;
+}
+.skills-level-underline {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-level-divide p {
+  color: #667081;
+  font-size: 12px;
+}
+.skills-level-divide {
+  display: flex;
+  gap: 120%;
+}
+.skills-level-divide2 {
+  transform: translateX(-120px);
+}
+.skills-level-line {
+  width: 100%;
+  height: 1px;
+  background: #667081;
+  margin-bottom: 10px;
+}
+.vertical-line {
+  height: 10px;
+  width: 1px;
+  background: #667081;
+}
+.vertical-line-div {
+  display: flex;
+  gap: 200px;
+}
+.margin-left {
+  margin-left: 30px;
+}

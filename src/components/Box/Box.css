@@ -1,0 +1,15 @@
+.box-title {
+  margin-bottom: 40px;
+  color: #26c17e;
+  font-size: 25px;
+  font-weight: 700;
+}
+.box {
+  margin-bottom: 50px;
+}
+
+.box-title-wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
